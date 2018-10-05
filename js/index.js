@@ -48,22 +48,22 @@ function getIcon(weather){
   console.log(weather);
   switch(weather){
     case "Clear":
-      icon += "https://raw.githubusercontent.com/t3chm0nkey/CodePenWeatherApp/master/sunnyIcon.png";
+      icon += "https://raw.githubusercontent.com/t3chm0nkey/CodePenWeatherApp/master/icons/sunnyIcon.png";
       break;
     case "Clouds":
-      icon += "https://raw.githubusercontent.com/t3chm0nkey/CodePenWeatherApp/master/cloudyIcon.png"
+      icon += "https://raw.githubusercontent.com/t3chm0nkey/CodePenWeatherApp/master/icons/cloudyIcon.png"
       break;
     case "Snow":
-      icon +="https://raw.githubusercontent.com/t3chm0nkey/CodePenWeatherApp/master/snowIcon.png"
+      icon +="https://raw.githubusercontent.com/t3chm0nkey/CodePenWeatherApp/master/icons/snowIcon.png"
       break;
     case "Rain":
-      icon +="https://raw.githubusercontent.com/t3chm0nkey/CodePenWeatherApp/master/rainIcon.png"
+      icon +="https://raw.githubusercontent.com/t3chm0nkey/CodePenWeatherApp/master/icons/rainIcon.png"
       break;
     case "Thunder":
-      icon +="https://raw.githubusercontent.com/t3chm0nkey/CodePenWeatherApp/master/thunderIcon.png"
+      icon +="https://raw.githubusercontent.com/t3chm0nkey/CodePenWeatherApp/master/icons/thunderIcon.png"
       break;
     case "Haze":
-      icon += "https://raw.githubusercontent.com/t3chm0nkey/CodePenWeatherApp/master/partlyCloudyIcon.png"
+      icon += "https://raw.githubusercontent.com/t3chm0nkey/CodePenWeatherApp/master/icons/partlyCloudyIcon.png"
   }
   
   return(icon);
